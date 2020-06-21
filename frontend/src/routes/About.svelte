@@ -1,26 +1,7 @@
-<main>
-	<h1>About!</h1>
-	<p>This is a simple about page.</p>
-</main>
+<svelte:head>
+	<title>About</title>
+</svelte:head>
 
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+<h1>About this site</h1>
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
+<p>This is the 'about' page. There's not much here.</p>

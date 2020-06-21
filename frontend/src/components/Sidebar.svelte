@@ -1,7 +1,3 @@
-<script>
-  import { link } from "svelte-routing";
-</script>
-
 <style>
   .sidebar {
     position: fixed;
@@ -58,7 +54,7 @@
   <div class="position-sticky">
     <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
       <span>Starred</span>
-      <a class="link-secondary" href="#" aria-label="Add a new report">
+      <a class="link-secondary" aria-label="Add a new report">
         <span data-feather="plus-circle"></span>
       </a>
     </h6>
@@ -70,19 +66,19 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" aria-current="page" href="/">
           <span data-feather="file"></span>
           <img src={`https://i.pravatar.cc/28?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" /> Quorra
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" aria-current="page" href="/">
           <span data-feather="bar-chart-2"></span>
           <img src={`https://i.pravatar.cc/28?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" /> Alan
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" aria-current="page" href="/">
           <span data-feather="layers"></span>
           <img src={`https://i.pravatar.cc/28?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" /> Kevin
         </a>
@@ -91,19 +87,19 @@
 
     <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
       <span>Users</span>
-      <a class="link-secondary" href="#" aria-label="Add a new report">
+      <a class="nav-link" aria-current="page" href="/">
         <span data-feather="plus-circle"></span>
       </a>
     </h6>
     <ul class="nav flex-column mb-2">
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" aria-current="page" href="/">
           <span data-feather="shopping-cart"></span>
           <img src={`https://i.pravatar.cc/28?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" /> Tron
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" aria-current="page" href="/">
           <span data-feather="users"></span>
           <img src={`https://i.pravatar.cc/28?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" /> CLU
         </a>

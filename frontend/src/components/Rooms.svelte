@@ -47,10 +47,10 @@
             <img src={`https://i.pravatar.cc/36?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" />
             <img src={`https://i.pravatar.cc/36?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" />
             <img src={`https://i.pravatar.cc/36?u=${Math.floor(Math.random()*100)}`} class="rounded-circle" />
-            <a href="#" class="plus-button">+</a>
+            <a class="plus-button">+</a>
           </p>
-          <a href="#" class="card-link btn btn-dark btn-sm">Enter Meeting</a>
-          <a href="#" class="card-link btn btn-dark btn-sm">Enter Room</a>
+          <a class="card-link btn btn-dark btn-sm">Enter Meeting</a>
+          <a class="card-link btn btn-dark btn-sm">Enter Room</a>
         </div>
       </div>
     </div>
